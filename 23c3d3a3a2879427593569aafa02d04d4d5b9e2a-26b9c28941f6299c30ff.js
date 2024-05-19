@@ -883,17 +883,17 @@
                         className: m.a.title
                     }, n.a.createElement("span", {
                         className: m.a.titleThrough
-                    }, " W"), "AHYU ", n.a.createElement("span", {
+                    }, " D"), "r. ", n.a.createElement("span", {
                         className: m.a.titleThrough
-                    }, "ARIF"), " ", n.a.createElement("span", {
+                    }, "Yadav"), " ", n.a.createElement("span", {
                         className: m.a.titleThrough
-                    }, "P"), "URNOMO", n.a.createElement("p", {
+                    }, "P"), "ankaj", n.a.createElement("p", {
                         className: m.a.titleSite
-                    }, "[ warifp.co ]")), n.a.createElement("div", {
+                    }, "[ iyadavpankaj ]")), n.a.createElement("div", {
                         className: m.a.subTitle
                     }, n.a.createElement("p", {
                         className: "baffle"
-                    }, "Developer | Security Analyst")))) : n.a.createElement(n.a.Fragment, null, n.a.createElement("h1", {
+                    }, "MBBS Intern | GSVM Medical College")))) : n.a.createElement(n.a.Fragment, null, n.a.createElement("h1", {
                         className: m.a.title
                     }, o ? n.a.createElement(s.Link, {
                         to: a

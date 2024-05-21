@@ -5,19 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <style>
+        :root {
+            --background-color: white;
+            --text-color: black;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --background-color: #111;
+                --text-color: white;
+            }
+        }
+
+        body {
+            background-color: var(--background-color);
+            color: var(--text-color);
+        }
+
         /* Add your CSS styles here */
         .back-arrow {
             text-decoration: none;
-            color: black;
             position: absolute;
             top: 20px;
             left: 20px;
+            color: var(--text-color);
         }
         .contact-buttons {
             display: flex;
             flex-direction: column;
             align-items: center;
             margin-top: 100px;
+        }
+        .contact-buttons button {
+            margin-bottom: 10px;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            border: 1px solid var(--text-color);
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .contact-buttons button:hover {
+            background-color: var(--text-color);
+            color: var(--background-color);
         }
     </style>
 </head>
@@ -33,5 +63,26 @@
         <button onclick="window.location.href = 'https://telegram.me';">Telegram</button>
         <button onclick="window.location.href = 'mailto:your@example.com';">Email</button>
     </div>
+
+    <script>
+        // Toggle between light and dark mode
+        const prefersDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const root = document.documentElement;
+        if (prefersDarkMode) {
+            root.style.setProperty('--background-color', '#111');
+            root.style.setProperty('--text-color', 'white');
+        }
+
+        // Add event listener to toggle between light and dark mode
+        window.matchMedia('(prefers-color-scheme: dark)').addListener(e => {
+            if (e.matches) {
+                root.style.setProperty('--background-color', '#111');
+                root.style.setProperty('--text-color', 'white');
+            } else {
+                root.style.setProperty('--background-color', 'white');
+                root.style.setProperty('--text-color', 'black');
+            }
+        });
+    </script>
 </body>
 </html>

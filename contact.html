@@ -4,85 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
-    <style>
-        :root {
-            --background-color: white;
-            --text-color: black;
-        }
-
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --background-color: #111;
-                --text-color: white;
-            }
-        }
-
-        body {
-            background-color: var(--background-color);
-            color: var(--text-color);
-        }
-
-        /* Add your CSS styles here */
-        .back-arrow {
-            text-decoration: none;
-            position: absolute;
-            top: 20px;
-            left: 20px;
-            color: var(--text-color);
-        }
-        .contact-buttons {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin-top: 100px;
-        }
-        .contact-buttons button {
-            margin-bottom: 10px;
-            background-color: var(--background-color);
-            color: var(--text-color);
-            border: 1px solid var(--text-color);
-            padding: 10px 20px;
-            cursor: pointer;
-            transition: background-color 0.3s, color 0.3s;
-        }
-        .contact-buttons button:hover {
-            background-color: var(--text-color);
-            color: var(--background-color);
-        }
-    </style>
 </head>
 <body>
-    <!-- Back Arrow -->
-    <a href="/" class="back-arrow">&larr; Back</a>
-
-    <!-- Contact Buttons -->
-    <div class="contact-buttons">
-        <button onclick="window.location.href = 'https://twitter.com';">Twitter</button>
-        <button onclick="window.location.href = 'https://facebook.com';">Facebook</button>
-        <button onclick="window.location.href = 'https://instagram.com';">Instagram</button>
-        <button onclick="window.location.href = 'https://telegram.me';">Telegram</button>
-        <button onclick="window.location.href = 'mailto:your@example.com';">Email</button>
+    <h4>Talk to Wahyu Arif Purnomo</h4>
+    <p>Friends can contact me on the <code class="language-text">Internet</code>, by:</p>
+    <blockquote>
+        <p>Email : <a href="mailto:hi@warifp.co">hi[at]warifp.co</a></p>
+    </blockquote>
+    <h4>Security Key</h4>
+    <div class="gatsby-highlight" data-language="html">
+        <pre class="language-html">
+            <code class="language-html">Key ID      : 7939B052
+Key Type    : RSA
+Key Size    : 2.048
+Fingerprint : 7320 01EC 9DB6 DB21 7F7F 3CC6 A19C DC38 7939 B052
+User ID     : Wahyu Arif Purnomo</code>
+        </pre>
     </div>
+    <div class="gatsby-highlight" data-language="html">
+        <pre class="language-html">
+            <code class="language-html">-----BEGIN PGP PUBLIC KEY BLOCK-----
+Comment: https://keybase.io/download
+Version: Keybase Go 5.7.0 (windows)
 
-    <script>
-        // Toggle between light and dark mode
-        const prefersDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-        const root = document.documentElement;
-        if (prefersDarkMode) {
-            root.style.setProperty('--background-color', '#111');
-            root.style.setProperty('--text-color', 'white');
-        }
+xsFNBGEyU8YBEADVLxbNT8SzKonw3L0pSI5tgDZLE/Gw85rz/2X3Z4AzMqj17Ua2
+AgvKwd0/4enCIz6mDdMZ1tf7mwIjLIcwpS+Ar47ULQbHyX85wNcffQ2G3OgUDnM+
+PIjTyG5e8P/kvgBC3v8C31/rzNUsK+8WsibCwhx93oqVDMcPWqsCyHNEhY2FAWK5
+mldnLsRztaO0oD1oLZMWse5ixpovp5b4leOoj+5+D5yH1qpZMu1dCY9G7cwGl1wi
+LFPBRKg7pje/YxnWmaQtu3Ya53+em6NcioITy4VuBbfLi1am/xfz3qJ9LU9xc/W9
+nPDZrlGOvDBConfoKRufesIgnprRQ+0Ae9x/st/gXUySntUNWc4vSXm0Z18IlULx
+OTh7gLSifiiAa3xvNLeQVdYWag53mH0u+oYS+ntB9NS6jPbi8HgzzZ7zC/O36CWX
+yeWnwTnGn9We3s58OXBOAIxmobIkXPYZ+QHqdnRxY1QHZtUw9A2WqtuX94KHojgp
+K70XUUJ/wemj2VpYkm5uLsdGySUTbzuSAQl16e1x5H0OJ/p3zsPMEwhQOlHzpvco
+HLoeSwAR0m3koW4KmivOAlHkDhrtMubVnCcO2Q1+YgvF2+y6tmqegvVRiqg6AiIH
+c3rtv08f5ffv8EbfMXs/lhblfzcwAbe05o0rrl9FTQoQ/uS8IqVmRv0b3wARAQAB
+zSFXQUhZVSBBUklGIFBVUk5PTU8gPGhpQHdhcmlmcC5jbz7CwXgEEwEIACwFAmEy
+U8YJEKGc3Dh5ObBSAhsDBQkeEzgAAhkBBAsHCQMFFQgKAgMEFgABAgAAaHEQADw5v6QAPclUsGAPpxasWaBzR0yOc9qUFWD+e5yQ2BjK8TA6vyCsDBL1oZg48HGGrQdQx63/kNmKLRhZ+v66ooecAQuqfTXeBxVhfVBwMTG/T+PlvZub+/emPI3t9+3HmKHt5vlkhsOaIhDOx2JlCVX9r7B6xHardpQL4kboCLKfpRmc/8JsdTQZ0Bxb5m7+JbGvntBXnnQRu/F/CZYpe/zQgGnYXaZIM2R85y481E4Vqg1as/Hp+zWIV6xvsyOKPqDpSBXMBDI1lL2R57DudIqxcLapWwK9IqgBoUEClGcMu7CEJWP8Je+6EMESIe4z489I3yu63M/h32924ZCPV++JHWmuluscN9GPm7XBSZxrgH6U/y9PD2jDyPaeL2n1LrMQZ0R/RMpdAKMNfYXY03G7xKE8PRANLX6SjBzCcfPidDtUjbCCMOy6Dy+SOwdd9VrmNLCpRSQZOkyzTG3c/5YUyt1h++PUd7pigh3NptkZcrKOe9/l+vgGC8qbLKgXC6YRFbf2/bQMsmNfbLqyCwUUjtvgkeu5RICGJJp36ZRhI2Z0fgNTlmqaf1zAKfn1Vv8oxaPxXKp5FoAoYmMw2KWajWWtdSuukFkHUzp+0p+GpMDlRPfqBrwhSmhCnZM3TSVBJYCM0UfBpyU4GtZiBQA9p5CBod5snK0jQhj57Q4BWzSVXQUhZVSBBUklGIFBVUk5PTU8gPHdhcmlmcEBnbWFpbC5jb20+wsF1BBMBCAApBQJhMlPGCRChnNw4eTmwUgIbAwUJHhM4AAQLBwkDBRUICgIDBBYAAQIAAPekEAAhLp2kJmTRHM0aocJhAOhJaywErw2WRv/1ayYBMFXPkjzbLlD60NjLitjrW4e5sYZYCXPxsTqpfsH4s+uulzsA77Po7YVf
+                
 
-        // Add event listener to toggle between light and dark mode
-        window.matchMedia('(prefers-color-scheme: dark)').addListener(e => {
-            if (e.matches) {
-                root.style.setProperty('--background-color', '#111');
-                root.style.setProperty('--text-color', 'white');
-            } else {
-                root.style.setProperty('--background-color', 'white');
-                root.style.setProperty('--text-color', 'black');
-            }
-        });
-    </script>
 </body>
 </html>

@@ -1,5 +1,29 @@
-import Link from "getsby-link"
-export default () <div
-                    <link to= "/page-data/contact/">Contact <link>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Data</title>
+</head>
+<body>
+    <h1>JSON Data Example</h1>
+    <div id="jsonData"></div>
 
-</div>
+    <script>
+        // Sample JSON data
+        var jsonData = {
+            "name": "John Doe",
+            "age": 30,
+            "city": "New York"
+        };
+
+        // Display JSON data on the page
+        document.getElementById("jsonData").innerHTML = `
+            <p>Name: ${jsonData.name}</p>
+            <p>Age: ${jsonData.age}</p>
+            <p>City: ${jsonData.city}</p>
+        `;
+    </script>
+</body>
+</html>
+

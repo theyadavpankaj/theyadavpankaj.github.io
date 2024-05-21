@@ -40,7 +40,18 @@ HLoeSwAR0m3koW4KmivOAlHkDhrtMubVnCcO2Q1+YgvF2+y6tmqegvVRiqg6AiIH
 c3rtv08f5ffv8EbfMXs/lhblfzcwAbe05o0rrl9FTQoQ/uS8IqVmRv0b3wARAQAB
 zSFXQUhZVSBBUklGIFBVUk5PTU8gPGhpQHdhcmlmcC5jbz7CwXgEEwEIACwFAmEy
 U8YJEKGc3Dh5ObBSAhsDBQkeEzgAAhkBBAsHCQMFFQgKAgMEFgABAgAAaHEQADw5v6QAPclUsGAPpxasWaBzR0yOc9qUFWD+e5yQ2BjK8TA6vyCsDBL1oZg48HGGrQdQx63/kNmKLRhZ+v66ooecAQuqfTXeBxVhfVBwMTG/T+PlvZub+/emPI3t9+3HmKHt5vlkhsOaIhDOx2JlCVX9r7B6xHardpQL4kboCLKfpRmc/8JsdTQZ0Bxb5m7+JbGvntBXnnQRu/F/CZYpe/zQgGnYXaZIM2R85y481E4Vqg1as/Hp+zWIV6xvsyOKPqDpSBXMBDI1lL2R57DudIqxcLapWwK9IqgBoUEClGcMu7CEJWP8Je+6EMESIe4z489I3yu63M/h32924ZCPV++JHWmuluscN9GPm7XBSZxrgH6U/y9PD2jDyPaeL2n1LrMQZ0R/RMpdAKMNfYXY03G7xKE8PRANLX6SjBzCcfPidDtUjbCCMOy6Dy+SOwdd9VrmNLCpRSQZOkyzTG3c/5YUyt1h++PUd7pigh3NptkZcrKOe9/l+vgGC8qbLKgXC6YRFbf2/bQMsmNfbLqyCwUUjtvgkeu5RICGJJp36ZRhI2Z0fgNTlmqaf1zAKfn1Vv8oxaPxXKp5FoAoYmMw2KWajWWtdSuukFkHUzp+0p+GpMDlRPfqBrwhSmhCnZM3TSVBJYCM0UfBpyU4GtZiBQA9p5CBod5snK0jQhj57Q4BWzSVXQUhZVSBBUklGIFBVUk5PTU8gPHdhcmlmcEBnbWFpbC5jb20+wsF1BBMBCAApBQJhMlPGCRChnNw4eTmwUgIbAwUJHhM4AAQLBwkDBRUICgIDBBYAAQIAAPekEAAhLp2kJmTRHM0aocJhAOhJaywErw2WRv/1ayYBMFXPkjzbLlD60NjLitjrW4e5sYZYCXPxsTqpfsH4s+uulzsA77Po7YVf
-                
+
+<script>
+        // Fetch JSON data
+        fetch('/page-data/contact/page-data.json')
+            .then(response => response.json())
+            .then(data => {
+                // Update HTML with JSON data
+                document.getElementById('title').textContent = data.title;
+                document.getElementById('content').textContent = data.content;
+            })
+            .catch(error => console.error('Error fetching JSON:', error));
+</script>                
 
 </body>
 </html>

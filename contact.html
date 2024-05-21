@@ -3,27 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JSON Data</title>
+    <title>Contact</title>
+    <style>
+        /* Add your CSS styles here */
+        .back-arrow {
+            text-decoration: none;
+            color: black;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+        .contact-buttons {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 100px;
+        }
+    </style>
 </head>
 <body>
-    <h1>JSON Data Example</h1>
-    <div id="jsonData"></div>
+    <!-- Back Arrow -->
+    <a href="/" class="back-arrow">&larr; Back</a>
 
-    <script>
-        // Sample JSON data
-        var jsonData = {
-            "name": "John Doe",
-            "age": 30,
-            "city": "New York"
-        };
-
-        // Display JSON data on the page
-        document.getElementById("jsonData").innerHTML = `
-            <p>Name: ${jsonData.name}</p>
-            <p>Age: ${jsonData.age}</p>
-            <p>City: ${jsonData.city}</p>
-        `;
-    </script>
+    <!-- Contact Buttons -->
+    <div class="contact-buttons">
+        <button onclick="window.location.href = 'https://twitter.com';">Twitter</button>
+        <button onclick="window.location.href = 'https://facebook.com';">Facebook</button>
+        <button onclick="window.location.href = 'https://instagram.com';">Instagram</button>
+        <button onclick="window.location.href = 'https://telegram.me';">Telegram</button>
+        <button onclick="window.location.href = 'mailto:your@example.com';">Email</button>
+    </div>
 </body>
 </html>
-

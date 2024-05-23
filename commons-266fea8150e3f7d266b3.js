@@ -1416,8 +1416,8 @@
                             width: "16",
                             height: "24",
                             viewBox: "0 0 512 512",
-                            fill: "currentcolor",
-                            stroke: "none",
+                            fill: "none",
+                            stroke: "currentcolor",
                             "stroke-width": "28",
                             "stroke-linecap": "round",
                             "stroke-linejoin": "round"
@@ -1479,6 +1479,7 @@
                             height: "24",
                             viewBox: "0 0 50 50",
                             fill: "none",
+                            stroke: "currentcolor",
                             "stroke-width": "4",
                             "stroke-linecap": "round",
                             "stroke-linejoin": "round"

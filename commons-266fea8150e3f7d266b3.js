@@ -1359,7 +1359,6 @@
                             width: "24",
                             height: "16",
                             viewBox: "0 0 24 24",
-                            fill: "none",
                             stroke: "currentcolor",
                             "stroke-width": "2",
                             "stroke-linecap": "round",

@@ -1418,7 +1418,7 @@
                             viewBox: "0 0 512 512",
                             fill: "none",
                             stroke: "currentcolor",
-                            "stroke-width": "28",
+                            "stroke-width": "27",
                             "stroke-linecap": "round",
                             "stroke-linejoin": "round"
                         }, o.a.createElement("path", {

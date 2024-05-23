@@ -1277,34 +1277,7 @@
                 menuMoreText: i.a.string
             };
             var E = O,
-                T = function(e) {
-                    var t = e.copyrights;
-                    return o.a.createElement("footer", null, t ? o.a.createElement("div", {
-                        dangerouslySetInnerHTML: {
-                            __html: t
-                        }
-                    }) : o.a.createElement(o.a.Fragment, null, o.a.createElement("span", {
-                        className: "footerCopyrights"
-                    }, "© 2024 Built with ", o.a.createElement("a", {
-                        href: "https://www.gatsbyjs.org"
-                    }, "Gatsby")), o.a.createElement("span", {
-                        className: "footerCopyrights"
-                    }, "Designed by ", o.a.createElement("a", {
-                        href: "https://iyadavpankaj.github.io"
-                    }, "Yadav Pankaj"))))
-                };
-            T.propTypes = {
-                copyrights: i.a.string
-            };
-            var A, k, S = T,
-                j = n("cOp2"),
-                _ = n.n(j),
-                C = (n("JM9Q"), n("rQiE")),
-                x = n("Ct0H"),
-                M = n.n(x),
-                P = n("vOnD"),
-                R = P.a.ul(A || (A = _()(['\n  display: flex;\n  flex-direction: column;\n  -webkit-box-align: center;\n  align-items: center;\n  padding: 0px;\n  margin: 0px;\n  list-style: none;\n  ::after {\n    content: "";\n    display: block;\n    width: 1px;\n    height: 90px;\n    background-color: ', ";\n    margin: 0px auto;\n  }\n"])), (function(e) {
-                    return e.isDark ? "#FFF" : "#3C3C3E"
+                
                 })),
                 I = function(e) {
                     e.settings;

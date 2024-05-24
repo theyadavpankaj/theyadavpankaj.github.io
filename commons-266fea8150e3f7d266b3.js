@@ -1278,24 +1278,7 @@
             };
             var E = O,
                 T = function(e) {
-                    var t = e.copyrights;
-                    return o.a.createElement("footer", null, t ? o.a.createElement("div", {
-                        dangerouslySetInnerHTML: {
-                            __html: t
-                        }
-                    }) : o.a.createElement(o.a.Fragment, null, o.a.createElement("span", {
-                        className: "footerCopyrights"
-                    }, "© 2024 Built with ", o.a.createElement("a", {
-                        href: "https://www.gatsbyjs.org"
-                    }, "Gatsby")), o.a.createElement("span", {
-                        className: "footerCopyrights"
-                    }, "Designed by ", o.a.createElement("a", {
-                        href: "https://iyadavpankaj.github.io"
-                    }, "Yadav Pankaj"))))
-                };
-            T.propTypes = {
-                copyrights: i.a.string
-            };
+                    
             var A, k, S = T,
                 j = n("cOp2"),
                 _ = n.n(j),

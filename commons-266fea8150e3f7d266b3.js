@@ -1283,15 +1283,7 @@
                         dangerouslySetInnerHTML: {
                             __html: t
                         }
-                    }) : o.a.createElement(o.a.Fragment, null, o.a.createElement("span", {
-                        className: "footerCopyrights"
-                    }, "© 2024 Built with ", o.a.createElement("a", {
-                        href: "https://www.gatsbyjs.org"
-                    }, "Gatsby")), o.a.createElement("span", {
-                        className: "footerCopyrights"
-                    }, "Designed by ", o.a.createElement("a", {
-                        href: "https://iyadavpankaj.github.io"
-                    }, "Yadav Pankaj"))))
+                    
                 };
             T.propTypes = {
                 copyrights: i.a.string

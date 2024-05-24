@@ -1285,13 +1285,13 @@
                         }
                     }) : o.a.createElement(o.a.Fragment, null, o.a.createElement("span", {
                         className: "footerCopyrights"
-                    }, "© 2024 Built with ", o.a.createElement("a", {
-                        href: "https://www.gatsbyjs.org"
-                    }, "Gatsby")), o.a.createElement("span", {
+                    }, "", o.a.createElement("a", {
+                        href: ""
+                    }, "")), o.a.createElement("span", {
                         className: "footerCopyrights"
-                    }, "Designed by ", o.a.createElement("a", {
-                        href: "https://iyadavpankaj.github.io"
-                    }, "Yadav Pankaj"))))
+                    }, "", o.a.createElement("a", {
+                        href: ""
+                    }, ""))))
                 };
             T.propTypes = {
                 copyrights: i.a.string

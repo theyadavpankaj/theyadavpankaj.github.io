@@ -1465,7 +1465,7 @@
                         }))))), o.a.createElement("li", null, o.a.createElement("a", {
                             className: M.a.icon
                         }, o.a.createElement("a", {
-                            href: "https://paypal.me/iyadavpankaj",
+                            href: "upi://pay?pa=iyadavpankaj@upi&pn=Pankaj%20Yadav&cu=INR",
                             target: "_blank",
                             rel: "noopener",
                             title: "Paypal"
